@@ -32,6 +32,7 @@ function loadQuestion(question) {
                 button.style.backgroundColor = 'green';
             } else {
                 button.style.backgroundColor = 'red';
+                document.getElementById(question.answer).style.backgroundColor = 'green';
             }
         });
     }); 
