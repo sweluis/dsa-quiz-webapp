@@ -1,0 +1,13 @@
+{
+    "name": "Daily-DSA-Quiz-App",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+      "server": "cd server && node server.js"
+    },
+    "author": "Luis Menjivar",
+    "license": "MIT"
+  }
+  
