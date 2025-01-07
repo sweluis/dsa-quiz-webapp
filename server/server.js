@@ -1,7 +1,7 @@
 import http from 'http';
 import dotenv from 'dotenv';
 dotenv.config();
-const PORT = process.env.SERVER_PORT;
+const PORT = process.env.SERVER_PORT || 5500;
 import { loadPageHandler, loadCSSPageHandler, loadJSPageHandler } from './handler.js';
 import { getRandomQuestion } from './service.js';
 
